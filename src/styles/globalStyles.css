@@ -1,0 +1,72 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --gray-1: #191C1F;
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+
+    --font-primary: "Inter", sans-serif;
+    --font-size-default: 24px;
+    --font-weigth-default: 600;
+}
+
+.title1 {
+    font-weight: var(--font-weigth-default);
+    font-size: 52px;
+    line-height: 140%;
+}
+
+.title2 {
+    font-weight: var(--font-weigth-default);
+    font-size: 40px;
+    line-height: 160%;
+}
+
+.title3 {
+    font-weight: var(--font-weigth-default);
+    font-size: 32px;
+    line-height: 160%;
+
+    color: var(--gray-6);
+}
+
+.text1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: var(--gray-4);
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: var(--gray-5);
+}
+
+.text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--gray-4);
+}
+
+.text4 {
+    font-weight: var(--font-weigth-default);
+    font-size: 16px;
+    line-height: 150%;
+}
+
+body {
+    font-family: var(--font-primary);
+}
