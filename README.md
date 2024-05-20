@@ -1,1 +1,0 @@
-Neste projeto é desenvolvido o "Site Institucional Genérico"
